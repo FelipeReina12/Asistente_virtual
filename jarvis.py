@@ -14,7 +14,6 @@ import json
 import datetime
 import wikipedia
 
-
 name = "jarvis"  #Le damos un nombre a nuestro asistente
 key = "AIzaSyAuJL8Uc69nwB-NP498-hBakf1vOhAjmVw"
 
@@ -42,7 +41,6 @@ def listen():
     except Exception as e:
         print(f"Error: {e}")
     return rec
-
 def run():
     rec = listen()
     if "reproduce" in rec:
